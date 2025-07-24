@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Market</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="tailwind.init.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header></header>
+<body class="max-w-7xl mx-auto">
+    <header>
+        <!-- nav section -->
+        <nav class="mt-[30px] flex justify-between items-center font-inter sm: p-5">  <!--mt-[60px]-->
+            <img src="./assets/logo.png" alt="">
+            <ul class="flex gap-8 text-lg">
+                <div class="hidden sm:flex gap-8 ">
+                    <li class="font-bold"><a href="">Home</a></li>
+                    <li class="font-normal text-[#8987a1]"><a href="">Shop</a></li>
+                    <li class="font-normal text-[#8987a1]"><a href="">About us</a></li>
+                </div>
+                <li class="font-medium sm:text-2xl lg:text-xl"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>              
+            </ul>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
 </body>
