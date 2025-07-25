@@ -12,21 +12,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="max-w-7xl mx-auto">
-    <header>
+    <header class="mt-[30px]">
         <!-- nav section -->
-        <nav class="mt-[30px] flex justify-between items-center font-inter sm: p-5">  <!--mt-[60px]-->
+        <nav class="flex justify-between items-center font-inter px-7"> 
             <img src="./assets/logo.png" alt="">
             <ul class="flex gap-8 text-lg">
-                <div class="hidden sm:flex gap-8 ">
+                <div class="gap-8 hidden md:flex visible text-2xl">
                     <li class="font-bold"><a href="">Home</a></li>
                     <li class="font-normal text-[#8987a1]"><a href="">Shop</a></li>
                     <li class="font-normal text-[#8987a1]"><a href="">About us</a></li>
                 </div>
-                <li class="font-medium sm:text-2xl lg:text-xl"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>              
+                <li class="font-medium text-2xl lg:text-xl"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>              
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <!-- hero section -->
+         <section class="mt-[120px] flex flex-col-reverse md:flex-row items-center gap-[1] px-2">
+            <div class="font-noto hero mx-7 md:w-[49%] px-5">
+                 <h1 class="text-[65px] font-bold">ALWAYS <span class="text-[#e95a08]">FRESH FLOWERS</span></h1>
+                <p class="font-inter text-xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="hero-content mb-10"> <!--w-[49%]-->
+                <img class="w-full md:mx-[47px]w-[570px] h-[355px]" src="./assets/hero-flower.png" alt="">
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
